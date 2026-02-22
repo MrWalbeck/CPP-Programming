@@ -27,7 +27,7 @@ Today we’ll cover the fundamentals of C++ programming and start coding your fi
 To follow along and practice today’s lessons:
 
 - 💻 **PC / Laptop**: Dev C++  
-- 📱 **Android Mobile**: CxxDroid  
+- 📱 **Android Mobile**: Coding C++  
 
 ---
 
@@ -35,7 +35,7 @@ To follow along and practice today’s lessons:
 
 A **variable** is a named container used to store data in memory.
 
-``cpp
+```cpp
 int age = 20;        // integer variable
 float price = 99.5;  // floating-point variable
 char grade = 'A';    // character variable
