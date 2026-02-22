@@ -21,7 +21,7 @@ Today we’ll learn how to take input from the user, execute statements in seque
 To practice today’s lessons:
 
 - 💻 **PC / Laptop**: Dev C++  
-- 📱 **Android Mobile**: CxxDroid  
+- 📱 **Android Mobile**: Coding C++  
 
 ---
 
