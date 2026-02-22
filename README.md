@@ -85,7 +85,7 @@ Daily commits reflect continuous improvement and structured learning.
 
 ## 📦 Release
 
-`v1.0.0` — Initial structured foundation release.
+Initial structured foundation release.
 
 Future updates will include:
 - More DSA implementations
