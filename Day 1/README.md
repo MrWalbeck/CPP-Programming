@@ -74,6 +74,7 @@ cout << a - b << endl;  // 5
 cout << a * b << endl;  // 50
 cout << a / b << endl;  // 2
 cout << a % b << endl;  // 0
+```
 
 ### Assignment Operators
 
