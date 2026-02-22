@@ -1,1 +1,0 @@
-Day 1: Fundamentals & Data Handling Variables: Learned to declare and initialize various data types like int, float, char, and bool to store information. Operators: Explored arithmetic operators (+, -, *, /, %) and logical operators for data manipulation. Assignment: Mastered assigning values to variables and using compound assignment operators (e.g., +=, -=) for cleaner code. 
