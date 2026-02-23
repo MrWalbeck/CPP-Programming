@@ -187,48 +187,6 @@ int main() {
 - **Congratulations!** You have now written and executed your first C++ program.
 
 </p>
-
-<a id="introducion-to-c"></a>
-<hr><br><br>
-
-<img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white">
-
-## Introduction to C [🔝](#contents)
-
-<p><b>What is C Programming Language ?</b>
-
-
-* C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
-
-* It is a very popular language, despite being old.
-
-* C is strongly associated with UNIX, as it was developed to write the UNIX operating system.
-
-* Both C/C++ has the same features and applications
-
-**NOTE**
-C and C++ uses the same compiler and IDE
-</p>
-
-### Quick Start :
-
-<p>
-
-- Let's create our first C file.
-- Open **VSCode** and go to File > New Text File.
-- Write the following C code and save the file as **myfirstprogram.c** (File > Save File as):
-
-```
-// myfirstprogram.c
-
-
-#include <stdio.h>
-
-int main() {
-  printf("Hello World!");
-  return 0;
-}
-```
  
 <a id="differences"></a>
  <hr><br><br>
@@ -243,7 +201,7 @@ int main() {
  <a id="compiler"></a>
  <hr><br><br>
  
- ## C++/C Compiler on different OS [🔝](#contents)
+ ## C++ Compiler on different OS [🔝](#contents)
  
  
  <p><b>For Windows, Linux and MacOS</b><br>
