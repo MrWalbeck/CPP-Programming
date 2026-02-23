@@ -3,9 +3,9 @@
 **NOTE: <i>We will be using Visual Studio Code.</i>** Click <a href="https://code.visualstudio.com/download" target="_blank"> here</a> to download Visual Studio Code.
 <hr>
 
-## C/C++ for Visual Studio Code
+## C++ for Visual Studio Code
 
-C/C++ support for Visual Studio Code is provided by a **Microsoft C/C++ extension** to enable cross-platform C and C++ development on **Windows**, **Linux**, and **macOS**.
+C++ support for Visual Studio Code is provided by a **Microsoft C/C++ extension** to enable cross-platform C and C++ development on **Windows**, **Linux**, and **macOS**.
 
 
 ![cpp-extension](https://user-images.githubusercontent.com/79866006/232723908-2a3a544c-d8e3-411e-a4e6-a7641849a790.png)
