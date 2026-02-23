@@ -11,7 +11,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white">
-<img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white"><br><br>
+<br><br>
 <img src="https://img.shields.io/github/license/The-Young-Programmer/C-CPP-Programming-Project?logo=mit">
 <img src="https://img.shields.io/github/stars/The-Young-Programmer/C-CPP-Programming-Project?logo=github">
 <img src="https://img.shields.io/github/issues/The-Young-Programmer/C-CPP-Programming-Project?logo=github">
