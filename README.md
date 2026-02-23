@@ -82,6 +82,35 @@ Visit <a href="https://c-cpp-programming.netlify.app/" target="_blank"> here </a
   Visit <a href="https://cppprogramming.netlify.app/" target="_blank"> here </a> for full course
 </details>
 
+ <details><summary>Projects</summary>
+
+  - <details><summary>C++ Projects</summary>
+
+      - [A Login and Registration System](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/A%20Login%20and%20Registration%20System)
+    
+      - [AIO Calculator](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/AIO%20Calculator)
+ 
+      - [Bank Management system ](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Bank%20Management%20System)
+    
+      - [CPP Magic Text](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/CPP%20Magic%20Text)
+    
+      - [Calculate CGPA and GPA](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Calculate%20CGPA%20and%20GPA) 
+
+      
+      - [Encryption and Decryption of Text](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Guessing%20Game)
+
+      - [Guessing Game](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Guessing%20Game)
+
+      - [Hotel Management System](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Hotel%20Management%20System)
+
+      - [Supermarket Billing System](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Supermarket%20Billing%20System)
+
+      - [Temperature-calculator](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Basic/Temperature-calculator)
+ 
+      - [Basic Calculator (GUI)](https://github.com/MrWalbeck/CPP-Programming/tree/main/Projects/C%2B%2B%20Projects/Advance%20(GUI)/Basic%20Calculator%20(GUI))
+ 
+  
+    </details>
 
 
  <details><summary>Download App</summary>
