@@ -30,6 +30,19 @@ To follow along and practice today's lessons:
 - 📱 **Android Mobile**: Coding C++  
 
 ---
+## ☃️ First Program
+
+```cpp
+// myfirstprogram.cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+}
+```
+---
 
 ## 📦 Variables in C++
 
