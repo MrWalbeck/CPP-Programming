@@ -32,8 +32,7 @@ To practice today’s lessons:
 ### Syntax
 
 ```cpp
-int a;
-cin>>a;
+cin >> variable_name;
 ```
 ### Example
 ```cpp
