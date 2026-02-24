@@ -1,36 +1,71 @@
-# 📅 Day 1 — Course Overview, Variables, Data Types & Operators
+# 🚀 Programming Fundamentals (COC1071) — Day 01  
+### C++ From Scratch for University Students
 
-Welcome to **Day 1** of the *C++ From Scratch for University Students* journey! 🚀  
-Today we’ll cover the basics of C++, get familiar with variables, data types, operators, and start coding your first programs.
+> 📚 Course: Programming Fundamentals  
+> 🏫 Code: COC1071  
+> 💻 Language: C++  
+> 🎯 Focus: Core Syntax, Variables, Data Types & Operators  
 
 ---
 
-## 🎯 Topics Covered Today
+## 📖 Overview
 
-- Variables in C++  
-- Keywords in C++  
-- Data Types  
+Day 1 focuses on building a **strong foundation in C++ programming**.  
+This session transitions from theoretical computer concepts to writing structured and functional C++ programs.
+
+C++ was developed by **Bjarne Stroustrup** and is widely used in:
+
+- 🖥 Operating Systems  
+- 🎮 Game Development  
+- 🌐 Browsers & Compilers  
+- ⚙ Embedded Systems  
+- 🚀 High-Performance Applications  
+
+---
+
+# 📋 Topics Covered
+
+- C++ Basic Structure  
+- First Program  
+- Variables  
+- Keywords  
+- Data Types & Range  
 - Operators  
-- Precedence of Operators  
-- Assignment Operator  
+- Assignment Operators  
+- Operator Precedence  
 - Comments  
 - Adding Two Integers  
 - Using Characters  
-- Variable Type & Range  
 - Integer Overflow  
-- Code Flow (sequence of statements)
+- Code Flow  
 
 ---
 
-## 🖥️ Software & Tools
+# 🛠 Development Environment
 
-To follow along and practice today's lessons:
+**Tools Used:**
 
-- 💻 **PC / Laptop**: Dev C++  
-- 📱 **Android Mobile**: Coding C++  
+- 💻 Dev-C++ / Visual Studio  
+- 📱 Coding C++ (Mobile Option)  
+- ⚙ Standard C++ Compiler  
+
+### 🔄 Compilation Process
+
+```
+
+Source Code (.cpp)
+↓
+Compiler
+↓
+Object Code (.obj)
+↓
+Executable File (.exe)
+
+````
 
 ---
-## ☃️ First Program
+
+# ☃️ First Program — Hello World
 
 ```cpp
 // myfirstprogram.cpp
@@ -39,18 +74,30 @@ To follow along and practice today's lessons:
 using namespace std;
 
 int main() {
-  cout << "Hello World!";
+    cout << "Hello World!";
+    return 0;
 }
-```
+````
+
+### 🔎 Explanation
+
+* `#include <iostream>` → Enables input/output
+* `using namespace std;` → Allows usage of standard library
+* `int main()` → Entry point of program
+* `cout` → Output statement
+* `return 0;` → Successful termination
+
 ---
 
-## 📦 Variables in C++
+# 📦 Variables in C++
 
-A **variable** is a named container used to store data in memory.
+A **variable** is a named memory location used to store data.
+
+### Syntax
 
 ```cpp
 data_type variable_name = value;
-````
+```
 
 ### Example
 
@@ -63,75 +110,178 @@ bool passed = true;
 
 ---
 
-## 🔢 Data Types in C++
+# 🔑 Keywords in C++
 
-| Data Type | Description      | Example |
-| --------- | ---------------- | ------- |
-| int       | Whole numbers    | 10, -5  |
-| float     | Decimal numbers  | 3.14    |
-| double    | Larger decimals  | 99.999  |
-| char      | Single character | 'A'     |
-| bool      | True/False       | true    |
-| string    | Text             | "Hello" |
+Keywords are reserved words and cannot be used as identifiers.
+
+Examples:
+
+```
+int, float, double, char, bool,
+if, else, while, for, return, void
+```
 
 ---
 
-## ➕ Operators in C++
+# 🔢 Data Types & Variable Range
 
-### 1️⃣ Arithmetic Operators
+| Data Type | Purpose          | Size    | Approximate Range    |
+| --------- | ---------------- | ------- | -------------------- |
+| int       | Whole numbers    | 4 bytes | -2.1B to +2.1B       |
+| char      | Single character | 1 byte  | -128 to 127          |
+| float     | Decimal numbers  | 4 bytes | ~7 digits precision  |
+| double    | Large decimals   | 8 bytes | ~15 digits precision |
+| bool      | Logical values   | 1 byte  | true / false         |
+
+---
+
+# ➗ Operators in C++
+
+## 1️⃣ Arithmetic Operators
 
 ```cpp
 int a = 10, b = 5;
-cout << a + b << endl;  // 15
-cout << a - b << endl;  // 5
-cout << a * b << endl;  // 50
-cout << a / b << endl;  // 2
-cout << a % b << endl;  // 0
-```
 
-### 2️⃣ Assignment Operators
-
-```cpp
-int a = 5;
-a += 3; // a = 8
-a -= 2; // a = 6
-```
-
-### 3️⃣ Comparison Operators
-
-```cpp
-a == b; // equal
-a != b; // not equal
-a > b;  // greater than
-a < b;  // less than
-```
-
-### 4️⃣ Logical Operators
-
-```cpp
-a > 5 && b < 10; // AND
-a > 5 || b < 10; // OR
-!true;           // NOT
+cout << a + b << endl;  // Addition
+cout << a - b << endl;  // Subtraction
+cout << a * b << endl;  // Multiplication
+cout << a / b << endl;  // Division
+cout << a % b << endl;  // Modulus
 ```
 
 ---
 
-## 🧪 Practice Task
+## 2️⃣ Assignment Operators
 
-- Write a program that takes **two numbers**, performs arithmetic operations, and displays results.
-- Experiment with **variables and different data types**.
+```cpp
+int x = 5;
 
----
-
-## 📈 Outcome
-
-After completing Day 1, you should be able to:
-
-- Understand course structure
-- Declare and use variables
-- Work with basic data types
-- Perform operations using operators
+x += 3;  // x = 8
+x -= 2;  // x = 6
+```
 
 ---
 
-⭐ **Keep coding and enjoy your C++ journey!** 🚀
+## 3️⃣ Comparison (Relational) Operators
+
+```
+==   !=   >   <   >=   <=
+```
+
+---
+
+## 4️⃣ Logical Operators
+
+```
+&&   (AND)
+||   (OR)
+!    (NOT)
+```
+
+---
+
+# 🧮 Operator Precedence
+
+Order of execution:
+
+1. Parentheses `( )` — Highest
+2. `*  /  %`
+3. `+  -` — Lowest
+
+### Example
+
+```
+2 + 3 * 4  = 14
+(2 + 3) * 4 = 20
+```
+
+---
+
+# 💬 Comments in C++
+
+```cpp
+// Single-line comment
+
+/*
+Multi-line
+comment
+*/
+```
+
+Comments improve readability and maintainability.
+
+---
+
+# 🧪 Practical Examples
+
+## ➤ Adding Two Integers
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+
+    cout << "Sum: " << a + b << endl;
+    return 0;
+}
+```
+
+---
+
+## ➤ Using Character
+
+```cpp
+char grade;
+
+cout << "Enter your grade: ";
+cin >> grade;
+
+cout << "Your grade: " << grade << endl;
+```
+
+---
+
+# ⚠ Integer Overflow
+
+Overflow occurs when a value exceeds the maximum limit of its data type.
+
+```cpp
+int maxInt = 2147483647;
+cout << maxInt + 1;  // Overflow occurs
+```
+
+---
+
+# 🔄 Code Flow
+
+C++ executes statements **sequentially from top to bottom** unless control statements modify the flow.
+
+Understanding execution flow is essential for logical program design.
+
+---
+
+# 📌 Day 1 Summary
+
+### 🎯 Learning Outcomes
+
+By the end of Day 1, I can:
+
+* Understand C++ program structure
+* Declare and use variables
+* Work with fundamental data types
+* Apply arithmetic and logical operators
+* Understand precedence rules
+* Write simple functional programs
+
+---
+
+⭐ **Keep practicing and building your C++ foundation!** 🚀
+
+```
+
+---

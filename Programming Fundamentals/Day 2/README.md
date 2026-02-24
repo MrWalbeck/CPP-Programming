@@ -1,18 +1,30 @@
-# 📅 Day 2 — Input, Sequence & Selection Statements
+# 🚀 Programming Fundamentals (COC1071) — Day 02  
+### Input, Sequence & Selection Statements
 
-Welcome to **Day 2** of the *C++ From Scratch for University Students* journey! 🚀  
-Today we’ll learn how to take input from the user, execute statements in sequence, and make decisions using selection statements.
+> 📚 Course: Programming Fundamentals  
+> 🏫 Code: COC1071  
+> 💻 Language: C++  
+> 🎯 Focus: User Input, Program Flow & Decision Making  
 
 ---
 
-## 🎯 Topics Covered
+## 📖 Overview
+
+Welcome to **Day 2** of the *C++ From Scratch for University Students* journey! 🚀  
+Today we learn how to take input from the user, execute statements in sequence, and make decisions using selection statements.
+
+This session transitions from **static programs** to **interactive and logical programs**.
+
+---
+
+## 📋 Topics Covered
 
 - Input using `cin`  
-- Sequence of statements  
+- Sequence of statements (code flow)  
 - Selection statements:  
   - `if`  
   - `if-else`  
-  - `if-else-if`
+  - `if-else-if` Ladder  
 
 ---
 
@@ -20,21 +32,23 @@ Today we’ll learn how to take input from the user, execute statements in seque
 
 To practice today’s lessons:
 
-- 💻 **PC / Laptop**: Dev C++  
-- 📱 **Android Mobile**: Coding C++  
+- 💻 **PC / Laptop:** Dev C++  
+- 📱 **Android Mobile:** Coding C++  
 
 ---
 
 ## 💻 Taking Input: `cin`
 
-`cin` is used to take input from the user.
+The `cin` object is used to take input from the user.
 
 ### Syntax
 
 ```cpp
 cin >> variable_name;
-```
+````
+
 ### Example
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -46,7 +60,7 @@ int main() {
     cout << "You are " << age << " years old." << endl;
     return 0;
 }
-````
+```
 
 ---
 
@@ -54,7 +68,7 @@ int main() {
 
 C++ executes statements **one after another in order**.
 
-### Syntax
+### Example
 
 ```cpp
 #include <iostream>
@@ -72,19 +86,21 @@ int main() {
 
 ## 🔹 Selection Statements
 
+Selection statements allow the program to make **decisions** based on conditions.
+
+---
+
 ### 1️⃣ `if` Statement
 
 Executes a block **only if a condition is true**.
 
-### Syntax
-
 ```cpp
-if(condition)
-{
- statement(s)
+if(condition) {
+    // statements
 }
 ```
-### Example
+
+#### Example
 
 ```cpp
 #include <iostream>
@@ -103,23 +119,21 @@ int main() {
 }
 ```
 
+---
+
 ### 2️⃣ `if-else` Statement
 
-Executes one block if the condition is true, **another if false**.
-
-### Syntax
+Executes **one block if condition is true** and **another if false**.
 
 ```cpp
-if(condition)
-{
- statement(s)
-}
-else
-{
- statement(s)
+if(condition) {
+    // statements if true
+} else {
+    // statements if false
 }
 ```
-### Example
+
+#### Example
 
 ```cpp
 #include <iostream>
@@ -140,27 +154,23 @@ int main() {
 }
 ```
 
+---
+
 ### 3️⃣ `if-else-if` Ladder
 
-Checks multiple conditions **in sequence**.
-
-### Syntax
+Used to check **multiple conditions in sequence**.
 
 ```cpp
-if(condition)
-{
- statement(s)
-}
-else if(condition)
-{
- statement(s)
-}
-else
-{
- statement(s)
+if(condition1) {
+    // statements
+} else if(condition2) {
+    // statements
+} else {
+    // statements if none match
 }
 ```
-### Example
+
+#### Example
 
 ```cpp
 #include <iostream>
@@ -189,19 +199,25 @@ int main() {
 
 ## 🧪 Practice Tasks
 
-1. Take a number from the user and check if it is **positive, negative, or zero**.
+1. Take a number and check if it is **positive, negative, or zero**.
 2. Take marks as input and print the **corresponding grade** using `if-else-if`.
+3. Take two numbers and display the **greater number**.
 
 ---
 
-## 📈 Outcome
+## 📌 Day 2 Learning Outcomes
 
-After completing Day 2, you should be able to:
+By the end of Day 2, you should be able to:
 
-- Take input using `cin`
-- Execute statements in sequence
-- Use **if**, **if-else**, and **if-else-if** selection statements
+* Take input from the user using `cin`
+* Execute statements in **sequence**
+* Apply **if**, **if-else**, and **if-else-if** statements in programs
+* Solve logical problems interactively
 
 ---
 
 ⭐ **Keep practicing and building your C++ foundation!** 🚀
+
+```
+
+---
