@@ -1,0 +1,6 @@
+Write a program that takes grade as an input from the user and depending upon the grade display the message. Following is the criteria:
+- If grade is 'A' or 'a' then display “Excellent”
+- If grade is 'B' or 'b' then display “Very Good”
+- If grade is 'C' or 'c' then display “Good”
+- If grade is 'D' or 'd' then display “Poor”
+- If grade is 'F' or 'f' then display “Fail”

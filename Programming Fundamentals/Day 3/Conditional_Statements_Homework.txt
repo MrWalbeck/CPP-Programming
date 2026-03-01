@@ -1,0 +1,89 @@
+============================================================
+        C++ CONDITIONAL STATEMENTS – HOMEWORK
+============================================================
+
+
+1) CALCULATOR USING IF-ELSE-IF
+------------------------------------------------------------
+Develop a calculator that can handle two numbers.
+
+The calculator should perform the following operations 
+using IF-ELSE-IF statements:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+
+
+2) BANK LOAN ELIGIBILITY PROGRAM
+------------------------------------------------------------
+A bank provides loans under the following conditions:
+
+* If the customer is MALE, his age must be more than 25
+  and his salary must be more than 25,000.
+
+* If the customer is FEMALE, her age must be more than 30
+  and her income must be more than 20,000.
+
+PROGRAM REQUIREMENTS:
+- Ask the user to enter:
+  Age
+  Gender (M/F)
+  Income
+- Check whether he/she is eligible for a loan or not.
+
+
+3) CALCULATOR USING SWITCH STATEMENT
+------------------------------------------------------------
+Develop a calculator that can handle two numbers.
+
+The calculator should perform the following operations 
+using the SWITCH statement:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+
+
+4) GRADE MESSAGE PROGRAM (UPPERCASE ONLY)
+------------------------------------------------------------
+Write a program that takes a grade as input from the user
+and displays a message according to the following criteria:
+
+* If grade is 'A' then display "Excellent"
+* If grade is 'B' then display "Very Good"
+* If grade is 'C' then display "Good"
+* If grade is 'D' then display "Poor"
+* If grade is 'F' then display "Fail"
+
+
+5) GRADE MESSAGE PROGRAM (UPPERCASE AND LOWERCASE)
+------------------------------------------------------------
+Write a program that takes a grade as input from the user
+and displays a message according to the following criteria:
+
+* If grade is 'A' or 'a' then display "Excellent"
+* If grade is 'B' or 'b' then display "Very Good"
+* If grade is 'C' or 'c' then display "Good"
+* If grade is 'D' or 'd' then display "Poor"
+* If grade is 'F' or 'f' then display "Fail"
+
+
+6) SALARY DEDUCTION PROGRAM
+------------------------------------------------------------
+In a company, there are deductions from employees' salaries
+for a fund. The deduction rules are:
+
+* Salary less than Rs. 10,000 → No deduction
+* Salary between Rs. 10,000 and Rs. 20,000 → Deduct Rs. 1,000
+* Salary equal to or more than Rs. 20,000 → Deduct 7%
+
+PROGRAM REQUIREMENTS:
+- Input employee name and salary from the user.
+- After applying the deduction, display:
+
+  Hello Name! Your net payable amount is 12000
+
+============================================================

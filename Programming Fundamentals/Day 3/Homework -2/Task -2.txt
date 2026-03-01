@@ -1,0 +1,5 @@
+* A bank gives loan in two situations
+If customer is male and his age is more than 25 and his salary is more than 25000
+If customer is a female and her age is more than 30 and her income is 20000
+
+* Program: Ask user to enter age, gender(M/F) and income. Check whether he\she is eligible to get loan or not.

@@ -1,0 +1,5 @@
+* In a company, there are deductions from the salary of the employees for a fund. The deductions rules are as follows:
+    -If salary is less than Rs.10,000 then no deduction
+    -If salary is equal to or more than Rs.10,000 and less than Rs.20,000 then deduct Rs.1,000 as fund
+    -If salary is equal to or more than 20,000 then deduct 7 % of the salary for fund
+* Input salary and name from user and after appropriate deduction show the net payable amount like this Hello *name*! Your net payable amount is 12000
